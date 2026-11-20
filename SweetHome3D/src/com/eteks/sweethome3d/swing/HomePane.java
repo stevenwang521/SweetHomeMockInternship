@@ -356,7 +356,7 @@ public class HomePane extends JRootPane implements HomeView {
     createAction(ActionType.SORT_HOME_FURNITURE_BY_HEIGHT, preferences, 
         furnitureController, "toggleFurnitureSort", HomePieceOfFurniture.SortableProperty.HEIGHT);
     createAction(ActionType.SORT_HOME_FURNITURE_BY_VOLUME, preferences,
-            furnitureController, "toggleFurnitureSort", HomePieceOfFurniture.SortableProperty.HEIGHT);
+            furnitureController, "toggleFurnitureSort", HomePieceOfFurniture.SortableProperty.VOLUME);
     createAction(ActionType.SORT_HOME_FURNITURE_BY_X, preferences, 
         furnitureController, "toggleFurnitureSort", HomePieceOfFurniture.SortableProperty.X);
     createAction(ActionType.SORT_HOME_FURNITURE_BY_Y, preferences, 
